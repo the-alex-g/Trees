@@ -5,7 +5,7 @@ const PRIME_1 := 39916801
 const PRIME_2 := 151051
 const PRIME_3 := 65537
 
-var _seed := 0.0
+var _seed := 0
 
 func _ready()->void:
 	seed_as_time()
